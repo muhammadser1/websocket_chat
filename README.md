@@ -42,14 +42,3 @@ uvicorn main:app --reload
 3. **Open in Browser**: Open `http://127.0.0.1:8000/` in multiple browser windows or tabs to test the chat.
 
 ----
-## Project Structure
-
-├── main.py                  # Entry point for the application
-├── connection_manager.py    # ConnectionManager class
-├── routes/
-│   ├── home.py              # Route for serving the HTML page
-│   ├── websocket.py         # WebSocket endpoint
-└── templates/
-    └── index.html           # HTML template for the chat
-
------
